@@ -13,7 +13,7 @@
 <script>   
 
     let tela = document.querySelector(`canvas`);
-    let pincel = document.getContext(`2d`);
+    let pincel = tela.getContext(`2d`);
 
     pincel.fillStyle = `ligthgrey`;
     pincel.fillRect(0, 0, 600, 400);
