@@ -1,0 +1,17 @@
+body {
+
+    text-align: center;
+    background-color: #CCCCCC;
+    
+}
+
+p {
+    font-size: 20px;
+    
+    
+}
+
+p > em > strong {
+    color: #ff0000;
+}
+
